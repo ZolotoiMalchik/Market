@@ -1,0 +1,68 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main {
+	height: 400px;
+}
+#list {
+	width: 100px;
+	float:left;
+	margin-left: 40px;
+	margin-top: 40px;
+
+	display: block;
+}
+#footer {
+	background-color: lightgrey;
+	width: 100%;
+	height: 50px;
+	color: black;
+}
+#table {
+	width: 700px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 40px;
+	
+	background-color: lightgray;
+	height: 300px;
+	
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	background-color: lightgray;
+	width: 100px;
+	margin: 2px;
+	text-align: center;
+}
+
+div.img {
+	width: 128px;
+	height: 128px;
+	background-color: orange;
+	float: left;
+	margin: 5px;
+}
+div.img > div {
+	position: relative;
+	top: 130px;
+}
+div.img > div > span {
+	display: block;
+	text-align: center;
+}
+div.img > div > button {
+	display: block;
+	text-align: center;
+	position: absolute;
+	left: 15px;
+}
+
